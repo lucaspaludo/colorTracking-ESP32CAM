@@ -1,3 +1,7 @@
+# Descrição
+Esse projeto apresenta uma implementação de um sistema de rastreamento de cores utilizando a placa ESP32-CAM, juntamente com uma interface web, que permite escolher qual cor deseja-se rastrear.
+São aplicadas técnicas de visão computacional para realizar o rastreamento das cores, utilizando a biblioteca OpenCV.js que é uma versão em JavasScript da biblioteca OpenCV, possibilitando utilizar as funcionalidades da OpenCV em um navegador Web.
+
 ## Algumas observações importantes para realizar o projeto:
 - Utilizar Arduino IDE na versão 1.8.12
 - No gerenciador de placas, fazer o download do ESP32 na versão 1.0.4
