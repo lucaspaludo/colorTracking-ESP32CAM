@@ -6,8 +6,8 @@
 #include "soc/rtc_cntl_reg.h"
 #include "index_color_tracking.h"
 
-const char* ssid = "NOTEDOLUCAS 7816"; /* Replace your SSID */
-const char* password = "67b58!B3"; /* Replace your Password */
+const char* ssid = ""; /* Replace your SSID */
+const char* password = ""; /* Replace your Password */
 
 
 /* Defining pin numbers and channels */
@@ -25,7 +25,7 @@ String Feedback = "";
 String Command = "", cmd = "", P1 = "", P2 = "", P3 = "", P4 = "", P5 = "", P6 = "", P7 = "", P8 = "", P9 = "";
 byte ReceiveState = 0, cmdState = 1, strState = 1, questionstate = 0, equalstate = 0, semicolonstate = 0;
 
-/* AI-Thinker */
+/* AI-Thinker (modelo da câmera)*/
 #define PWDN_GPIO_NUM     32
 #define RESET_GPIO_NUM    -1
 #define XCLK_GPIO_NUM      0
